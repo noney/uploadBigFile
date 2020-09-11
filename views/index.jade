@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	input(type="file" id="upload" onchange="uploadBigFile(event)")
+block script
+	script(src="/javascripts/zepto.js")
+	script(src="/javascripts/upload.js")
